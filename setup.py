@@ -26,6 +26,7 @@ setup(name='misitio.policy',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'Products.CMFPlacefulWorkflow',
       ],
       extras_require={
           'test': ['plone.app.testing'],
