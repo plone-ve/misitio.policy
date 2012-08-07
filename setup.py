@@ -27,6 +27,7 @@ setup(name='misitio.policy',
           'setuptools',
           # -*- Extra requirements: -*-
           'Products.CMFPlacefulWorkflow',
+          'misitio.contenttypes',
       ],
       extras_require={
           'test': ['plone.app.testing'],
