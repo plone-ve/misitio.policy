@@ -61,7 +61,6 @@ def createFolder(context, title, allowed_types=['Topic', 'Folder', 'Document'],
         folder.reindexObject()
         
 
-
 def createConcejoComunal(context, title, exclude_from_nav=False):
     """Crea un tipo de contenido ConcejoComunal en el contexto especificado 
     y modifica su política de workflows; por omisión, el cual contiene Archivo, 
